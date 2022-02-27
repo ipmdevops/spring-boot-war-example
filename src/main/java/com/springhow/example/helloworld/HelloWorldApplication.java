@@ -1,4 +1,4 @@
-package com.springhow.example.helloworld;
+ package com.springhow.example.helloworld;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,7 +23,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "I beleive, you are learning good stuff!!";
+        return "you are a good students!!";
     }
 
 }
